@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: tiany-heart-market
+    runtime: node
+    rootDir: web
+    plan: free
+    buildCommand: npm install --omit=dev
+    startCommand: npm start
+    healthCheckPath: /api/bootstrap
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: PRECOMPILE
+        value: "0"
+      - key: STATIC_RUNTIME
+        value: "1"

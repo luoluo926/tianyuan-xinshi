@@ -1,0 +1,27 @@
+# System files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+
+# Build output
+*.obj
+*.o
+*.exe.debug
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Runtime state
+web/data/users.json
+*.pid
+.web-server.*
+.deploy-test.*
+web-server.log
