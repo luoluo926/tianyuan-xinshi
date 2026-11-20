@@ -4,7 +4,11 @@
 
 天元心市 — 问心入市，万念皆可交易。
 
+[Play in browser](https://tiany-heart-market.onrender.com/) · [Project page](https://luoluo926.github.io/projects/tianyuan/) · [Repository](https://github.com/luoluo926/tianyuan-xinshi)
+
 The project began as a *Fantasy Westward Journey*–style isometric MMO built on **GGE**, a Lua 2D game engine, and now ships with a small Node runtime that runs the same city, characters and sprites in a browser. You enter as a guest or an account holder, walk the streets of Chang'an, trade goods that stand in for feelings, read the market board, and eventually open a stall of your own.
+
+The hosted build runs on a free instance that sleeps when idle; the first visit of the day can take up to a minute to wake, after which it loads normally.
 
 ![Landing page](docs/screenshots/landing-page.png)
 
@@ -109,6 +113,8 @@ The map, character models and scene art were produced for this project.
 # 天元心市
 
 *古风长安里的心货买卖*
+
+线上地址：<https://tiany-heart-market.onrender.com/>（免费实例空闲会休眠，首次打开可能需要等待约一分钟）。项目介绍页：<https://luoluo926.github.io/projects/tianyuan/>。
 
 仓库包含三部分：通用 Lua 引擎 `GGELUA`、游戏本体的 Lua 内容与地图 `XYQCS`、以及把同一套场景搬到浏览器的 Node 运行时 `web`。
 
